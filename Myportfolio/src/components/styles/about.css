@@ -1,0 +1,18 @@
+.heading{
+    text-align: center;
+}
+
+.about_content{
+    padding-bottom: 15rem;
+}
+
+.card{
+    background-color: #1e1844;
+    border-color: aqua;
+}
+
+.card-title{
+    color: antiquewhite;
+}
+
+
