@@ -9,10 +9,18 @@
 .card{
     background-color: #1e1844;
     border-color: aqua;
+    width: 300px;
 }
 
 .card-title{
     color: antiquewhite;
+    text-align: center;
 }
+
+.card-body{
+    text-align: center;
+}
+
+
 
 

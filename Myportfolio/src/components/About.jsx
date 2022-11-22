@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
-import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+import { Container, Row, Col, Card} from 'react-bootstrap';
+import {FaAward , FaProjectDiagram ,FaUsers} from 'react-icons/fa'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './styles/about.css'
@@ -30,9 +31,9 @@ function About() {
             <div data-aos="fade-up" data-aos-duration="1000">
               <Card className="m-2">
                 <Card.Body>
-                  <Card.Title>Experience</Card.Title>
+                  <Card.Title><FaAward/> Experience</Card.Title>
                   <Card.Text>
-                    Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs
+                     3 year working experience
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -43,9 +44,9 @@ function About() {
             <div data-aos="fade-up" data-aos-duration="1150">
               <Card className="m-2">
                 <Card.Body>
-                  <Card.Title>Achievement</Card.Title>
+                  <Card.Title> <FaProjectDiagram/> Projects</Card.Title>
                   <Card.Text>
-                    Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs
+                      Only one for the moment 
                   </Card.Text>
                 </Card.Body>
               </Card>
@@ -56,9 +57,9 @@ function About() {
             <div data-aos="fade-up" data-aos-duration="1200">
               <Card className="m-2">
                 <Card.Body>
-                  <Card.Title>Client</Card.Title>
+                  <Card.Title> <FaUsers/> Client</Card.Title>
                   <Card.Text>
-                    Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs
+                    Maxwell International
                   </Card.Text>
                 </Card.Body>
               </Card>
