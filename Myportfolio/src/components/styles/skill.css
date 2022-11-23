@@ -10,3 +10,41 @@ h5,h3,h4{
     text-align: center;
 }
 
+
+.skill_container{
+    padding: 2rem;
+    margin-left: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.skill_container > div{
+    border: 1px solid transparent;
+    border-radius: 2rem;
+    border-color: aqua;
+    padding: 2rem;
+}
+
+.skill_content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
+
+.skill_details{
+    display: flex;
+    gap: 1rem;
+}
+
+.display-icons{
+    margin-top: 0.4rem;
+}
+
+
+
+
+
+
+
+
